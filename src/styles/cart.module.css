@@ -1,0 +1,111 @@
+.cart_wrapper{
+    height: 90vh;
+    overflow: auto;
+    width: 80%;
+}
+
+.cart_wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.cartDiv{
+    width: 90%;
+    margin: 10px auto;
+    background-color: white;
+    border: 2px solid gray;
+    padding: 14px 28px ;
+    border-radius: 12px ;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.cartDiv img{
+    max-width: 20vw;
+    max-height: 70%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.cartDiv div{
+    width: 40%;
+}
+
+.cartDiv p{
+    background-color: #f2f2f2 ;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.cartDiv   button{
+    padding: 8px ;
+    background-color: #F43F5E;
+    color: #fed4db;
+    width: 150px;
+    border-radius: 12px;
+    border: 2px solid #E11D48;
+}
+
+.wrapper{
+    min-width: 80px;
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid #a8a8a8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper button{
+    width: 60px;
+    background-color: transparent;
+    padding: 8px;
+    border: none;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.billing_wrapper{
+    position: relative;
+    padding: 20px;
+}
+
+.billing{
+  width: 350px ;
+  padding: 10px 28px ;
+  background-color: #FFFFEC;
+  border: 2px solid #F1E4C3;
+  top: 100px;
+  right: 10px ;
+  min-height: fit-content;
+}
+
+
+.billing_card{
+    border-top : 2px solid #F1E4C3;
+}
+
+.billing_card h1{
+    font-size: 20px;
+}
+.billing_card p{
+    margin-left: 50%;
+    font-weight: 700 ;
+    text-align: right;
+}
+
+.billing > h1{
+    text-align: center;
+}
+
+.billing span{
+    color: #22C55E;
+}
+
+main{
+    /* height: fit-content; */
+    display: flex;
+    align-items: start;
+}
